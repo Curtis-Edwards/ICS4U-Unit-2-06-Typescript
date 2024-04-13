@@ -6,13 +6,13 @@
 * @since   2024-04-13
 */
 
-import { Airplane } from "./Airplane"
+//import { Airplane } from "./Airplane"
 import { Jet } from "./Jet"
 
-let biplane = new Airplane()
+const biplane = new Airplane()
 biplane.setSpeed(212)
 console.log(biplane.getSpeed())
-let boeing = new Jet()
+const boeing = new Jet()
 boeing.setSpeed(422)
 console.log(boeing.getSpeed())
 let counter = 0
