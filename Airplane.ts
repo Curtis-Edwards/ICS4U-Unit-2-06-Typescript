@@ -20,14 +20,14 @@ export class Airplane {
     /*
     * This method sets the speed
     */
-    public set setSpeed(newSpeed: number) {
+    public setSpeed(newSpeed: number) {
         this.speed = newSpeed
     }
 
     /*
     * This method gets the speed
     */
-    public get getSpeed(): number {
+    public getSpeed(): number {
       return this.speed
     }
 }
