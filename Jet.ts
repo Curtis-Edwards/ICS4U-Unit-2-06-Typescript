@@ -19,7 +19,7 @@ export class Jet extends Airplane {
      * Constructs a new Jet object.
      */
     public Jet() {
-        super()
+        // super()
     }
 
     /**
