@@ -26,4 +26,4 @@ while (counter < 4) {
     }
   counter++
 }
-console.log(biplane.getSpeed())
+console.log(biplane.getSpeed())*/
