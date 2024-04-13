@@ -1,5 +1,5 @@
 /*
-* The FlyTest class
+* The main program.
 *
 * @author  Curtis Edwards
 * @version 1.0
@@ -9,9 +9,9 @@
 import { Airplane } from './Airplane'
 import { Jet } from './Jet'
 
-/*const biplane = new Airplane()
+const biplane = new Airplane()
 biplane.setSpeed(212)
-console.log(biplane.getSpeed())*/
+console.log(biplane.getSpeed())
 const boeing = new Jet()
 boeing.setSpeed(422)
 console.log(boeing.getSpeed())
