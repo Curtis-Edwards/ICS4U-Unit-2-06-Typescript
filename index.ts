@@ -6,13 +6,13 @@
 * @since   2024-04-13
 */
 
-import Airplane from './Airplane'
-//import Jet from './Jet'
+import { Airplane } from './Airplane'
+import { Jet } from './Jet'
 
-const biplane = new Airplane()
+/*const biplane = new Airplane()
 biplane.setSpeed(212)
-console.log(biplane.getSpeed())
-/*const boeing = new Jet()
+console.log(biplane.getSpeed())*/
+const boeing = new Jet()
 boeing.setSpeed(422)
 console.log(boeing.getSpeed())
 let counter = 0
@@ -26,4 +26,4 @@ while (counter < 4) {
     }
   counter++
 }
-console.log(biplane.getSpeed())*/
+console.log(biplane.getSpeed())
