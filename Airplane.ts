@@ -7,6 +7,7 @@
  */
 
 export default class Airplane {
+    // variables
     private speed: number
   
     /*
