@@ -6,8 +6,8 @@
 * @since   2024-04-13
 */
 
-import { Airplane } from "./Airplane"
-import { Jet } from "./Jet"
+import Airplane from "./Airplane"
+import Jet from "./Jet"
 
 const biplane = new Airplane()
 biplane.setSpeed(212)
