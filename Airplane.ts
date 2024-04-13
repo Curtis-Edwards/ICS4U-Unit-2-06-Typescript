@@ -14,7 +14,6 @@ export default class Airplane {
     * constructor
     */
     constructor() {
-      this.speed = 0
     }
   
     /*
