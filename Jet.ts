@@ -5,7 +5,6 @@
 * @version 1.0
 * @since   2024-04-13
 */
-
 import { Airplane } from "./Airplane"
 
 /**
@@ -18,8 +17,8 @@ export class Jet extends Airplane {
     /**
      * Constructs a new Jet object.
      */
-    public Jet() {
-        // super()
+    public Jet(speed: number) {
+        super(speed)
     }
 
     /**
