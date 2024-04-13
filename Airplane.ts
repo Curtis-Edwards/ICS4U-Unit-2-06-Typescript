@@ -6,7 +6,7 @@
  * @since   2024-04-13
  */
 
-export default class Airplane {
+export class Airplane {
     // variables
     private speed: number
   
