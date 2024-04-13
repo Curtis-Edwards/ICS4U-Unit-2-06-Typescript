@@ -7,26 +7,26 @@
  */
 
 export class Airplane {
-    private speed: number
+    private _speed: number
   
     /*
     * constructor
     */
     constructor() {
-      this.speed = 0
+      this._speed = 0
     }
   
     /*
     * This method sets the speed
     */
     public set setSpeed(newSpeed: number) {
-        this.speed = newSpeed
+        this._speed = newSpeed
     }
 
     /*
     * This method gets the speed
     */
     public get getSpeed(): number {
-      return this.speed
+      return this._speed
     }
 }
