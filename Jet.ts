@@ -10,7 +10,7 @@ import Airplane from "./Airplane"
 /**
 * This is the jet class.
 */
-export class Jet extends Airplane {
+export default class Jet extends Airplane {
     /** Jet speed change multiplier. */
     private MULTIPLIER: number = 2
 
