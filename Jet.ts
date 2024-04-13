@@ -11,11 +11,11 @@ import { Airplane } from "./Airplane"
 * This is the jet class.
 */
 export class Jet extends Airplane {
-    /** Jet speed change multiplier. */
+    // variables
     private MULTIPLIER: number = 2
 
     /**
-     * Constructs a new Jet object.
+     * Constructor.
      */
     public constructor() {
         super()
