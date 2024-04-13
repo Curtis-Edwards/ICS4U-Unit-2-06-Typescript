@@ -1,1 +1,29 @@
-console.log("Hello via Bun!");
+/*
+* The FlyTest class
+*
+* @author  Curtis Edwards
+* @version 1.0
+* @since   2024-04-13
+*/
+
+import { Airplane } from "./Airplane"
+import { Jet } from "./Jet"
+
+let biplane = new Airplane()
+biplane.setSpeed(212)
+console.log(biplane.getSpeed())
+let boeing = new Jet()
+boeing.setSpeed(422)
+console.log(boeing.getSpeed())
+let counter = 0
+while (counter < 4) {
+    boeing.accelerate()
+    console.log(boeing.getSpeed())
+    if (boeing.getSpeed() > 5000) {
+        biplane.setSpeed(biplane.getSpeed() * 2)
+    } else {
+        boeing.accelerate()
+    }
+  counter++
+}
+console.log(biplane.getSpeed())
